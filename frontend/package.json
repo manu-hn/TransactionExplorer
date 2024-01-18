@@ -1,0 +1,34 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend/Client side code for MERN Stac code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manu-hn/TransactionExplorer.git"
+  },
+  "keywords": [
+    "Frontend",
+    "MERNStack",
+    "Code",
+    "challenge"
+  ],
+  "author": "Manu H N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manu-hn/TransactionExplorer/issues"
+  },
+  "homepage": "https://github.com/manu-hn/TransactionExplorer#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
