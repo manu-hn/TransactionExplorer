@@ -23,11 +23,12 @@
 
 Follow the steps below to set up and run the backend:
 
-1. *Clone the Repository:* - git clone https://github.com/manu-hn/TransactionExplorer.git
+1. *Clone the Repository:* - `git clone https://github.com/manu-hn/TransactionExplorer.git`
 2. *Navigate to the project directory:* - cd backend or open the directory in VS code
 3. *Install dependencies:* - run the `npm install` command to install all the dependencies required for the project
 4. *Configure ENV Variables::* - `PORT`=your_desired_port_number, `MONGO_URL`=your_mongo_connection_url
-5. *Start the server:* -run the command `npm run dev` The server will start on the specified port, and you should see a confirmation message in the terminal as shown in below image.
+5. *Start the server:* -run the command `npm run dev` The server will start on the specified port, and you should see a confirmation message in the terminal as shown in  image.
+<br />
 ![Alt text](./images/backend.png)
 
 ## API Endpoints
@@ -58,3 +59,40 @@ For educational purposes only. Use, modify, and distribute at your own risk.
 2. **Tailwind CSS**.
  
 3. **Parcel Bundler** 
+
+
+## External Libraries Used
+
+
+1. **react-router-dom:** A React library for handling navigation and routing within the application..
+
+2. **axios:** Used to make HTTP requests, facilitating communication with external APIs if needed.
+
+3. **react-google-charts:** A react library for charts, allowing easy integration of charts and visualization into our application
+
+## Getting Started
+
+Follow the steps below to set up and run the frontend:
+
+1. **Clone the Repository:** If you haven't already, clone the repository using the command `git clone https://github.com/manu-hn/TransactionExplorer.git`
+
+2. **Navigate to Frontend Directory:** Change your working directory to the frontend folder using `cd frontend`.
+
+3. **Install Dependencies:** Run the command `npm install` to install all the required libraries and packages for the project.
+
+4. **Start the Project:** Execute `npm run start` to start the frontend server. The application will be accessible at `http://localhost:1234` in your browser.
+
+## Note:
+ Ensure that the backend server is running before starting the frontend server.
+
+**Below are some images and screenshots**
+<br />
+
+![Alt text](./images/frontend%201.png)
+![Alt text](./images/frontend%202.png)
+![Alt text](./images/frontend%203.png)
+![Alt text](./images/frontend%204.png)
+ 
+# License
+
+**`This project is licensed for educational purposes only.`**
