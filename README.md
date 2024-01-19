@@ -29,6 +29,7 @@ Follow the steps below to set up and run the backend:
 4. *Configure ENV Variables::* - `PORT`=your_desired_port_number, `MONGO_URL`=your_mongo_connection_url (mongodb://127.0.0.1:27017/test - instead of test provide any suitable name that you like)
 5. *Start the server:* -run the command `npm run dev` The server will start on the specified port, and you should see a confirmation message in the terminal as shown in  image.
 <br />
+
 ![Alt text](./images/backend.png)
 
 ## API Endpoints
