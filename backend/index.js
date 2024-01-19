@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use("/api/transaction", TransactionRoutes);
+app.use("/api/transactions", TransactionRoutes);
 
 app.use('*', (request, response) => {
     response.status(400).json({ error: true, message: 'Page not Found !' })
