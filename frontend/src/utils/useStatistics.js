@@ -11,7 +11,7 @@ const useStatistics = (month  ) => {
             const response = await axios.get(`http://localhost:5000/api/transactions/statistics?month=${month}`);
             setFilteredStatistics(response.data.data);
             setStatistics(response.data.data);
-            console.log("Stats", response.data.data);
+          
 
         } catch (error) {
             console.log(error)

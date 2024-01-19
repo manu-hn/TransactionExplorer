@@ -1,6 +1,6 @@
-# Transaction Explorer Backend
+# Transaction Explorer 
 
-
+## Backend
 ## Tech Stack
 
 1. **Node.js / Express.js:** .
@@ -28,4 +28,33 @@ Follow the steps below to set up and run the backend:
 3. *Install dependencies:* - run the `npm install` command to install all the dependencies required for the project
 4. *Configure ENV Variables::* - `PORT`=your_desired_port_number, `MONGO_URL`=your_mongo_connection_url
 5. *Start the server:* -run the command `npm run dev` The server will start on the specified port, and you should see a confirmation message in the terminal as shown in below image.
-![Alt Text]('./backend.png')
+![Alt text](./images/backend.png)
+
+## API Endpoints
+
+1. **GET - /api/transactions/initialize-database:** Initializes the database with data from the provided URL.
+
+2. **GET - /api/transactions/search-query:** Searches transactions based on query parameters.
+
+3. **GET - /api/transactions/statistics:** Retrieves a statistical report, including the total sale amount, total items sold, and unsold items for a selected month.
+
+4. **GET - /api/transactions/bar-chart:** Fetches data for a bar chart, illustrating the number of items in different price ranges.
+
+5. **GET - /api/transactions/pie-chart:** Fetches data for a pie chart, presenting unique categories and the respective number of items in each category.
+
+6. **GET - /api/transactions/three-apis:** Gathers data from multiple APIs, consolidating the responses into a final JSON.
+
+## License
+
+For educational purposes only. Use, modify, and distribute at your own risk.
+
+
+
+## Frontend
+## Tech Stack
+
+1. **React.js** .
+
+2. **Tailwind CSS**.
+ 
+3. **Parcel Bundler** 

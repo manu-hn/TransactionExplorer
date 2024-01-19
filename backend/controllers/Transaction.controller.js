@@ -12,7 +12,7 @@ const apiInstance = axios.create({
 export const initializeDatabase = async (request, response, next) => {
     try {
         const apiResponse = await apiInstance.get('https://s3.amazonaws.com/roxiler.com/product_transaction.json');
-        console.log(apiResponse.data);
+       
         const data = await TransactionModel.insertMany(apiResponse.data);
 
 
