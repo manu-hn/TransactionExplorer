@@ -45,9 +45,7 @@ Follow the steps below to set up and run the backend:
 
 6. **GET - /api/transactions/three-apis:** Gathers data from multiple APIs, consolidating the responses into a final JSON.
 
-## License
 
-For educational purposes only. Use, modify, and distribute at your own risk.
 
 
 
