@@ -1,6 +1,8 @@
 import { connect } from "mongoose";
+import { config } from "dotenv";
+config();
 
-connect('mongodb://127.0.0.1:27017/Transaction').then(()=>{
+connect(process.env.MONGO_URL).then(()=>{
     console.log('Connected With MongoDB')
 }).catch((error)=>{
     console.log(error)
